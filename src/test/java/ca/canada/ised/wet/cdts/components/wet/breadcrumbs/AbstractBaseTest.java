@@ -5,7 +5,7 @@ import java.util.Locale;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -18,10 +18,7 @@ import org.springframework.web.context.WebApplicationContext;
  */
 @RunWith(SpringRunner.class)
 @WebAppConfiguration
-// TODO when upgrading to spring boot 1.4 or greater, change this to @SpringBootTest
-// https://stackoverflow.com/a/47628588/2055199
-// @SpringBootTest(classes = {WetCdtsSpringBootThymeleafTestConfig.class})
-@SpringApplicationConfiguration(classes = {WetCdtsSpringBootThymeleafTestConfig.class})
+@SpringBootTest(classes = {WetCdtsSpringBootThymeleafTestConfig.class})
 @ActiveProfiles(profiles = {"test"})
 public abstract class AbstractBaseTest {
 
