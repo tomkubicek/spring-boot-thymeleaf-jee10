@@ -1,5 +1,10 @@
 # WET Centrally Distributed Template Solution (CDTS) for Spring Boot and Thymeleaf
-
+<a href="https://gitpod.io/#https://github.com/tomkubicek/spring-boot-thymeleaf-jee10">
+  <img
+    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
+    alt="Contribute with Gitpod"
+  />
+</a>
 This is a Spring Boot Starter that uses Thymeleaf to implement CDTS.
 
 ## Benefits of using this version of CDTS.
