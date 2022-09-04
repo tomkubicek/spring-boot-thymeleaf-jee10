@@ -13,7 +13,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.junit.Test;
 import org.slf4j.Logger;
