@@ -5,6 +5,7 @@
     alt="Contribute with Gitpod"
   />
 </a>
+
 This is a Spring Boot Starter that uses Thymeleaf to implement CDTS.
 
 ## Benefits of using this version of CDTS.
